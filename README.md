@@ -20,7 +20,9 @@ A PyTorch implementation of the **DiffWave** architecture for non-autoregressive
 ## Mathematical Foundation
 
 The model is trained by optimizing the unweighted variational lower bound (ELBO):
-
+$$
+L_{\text{unweighted}}(\theta) = \mathbb{E}_{x_0,\epsilon,t} \left\| \epsilon - \epsilon_{\theta}(\sqrt{\bar{\alpha}_t}x_0 + \sqrt{1-\bar{\alpha}_t}\epsilon, t) \right\|_2^2
+$$
 
 ---
 
