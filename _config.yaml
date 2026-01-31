@@ -1,0 +1,5 @@
+title: blog
+theme: minima
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
