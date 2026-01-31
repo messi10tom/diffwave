@@ -3,8 +3,6 @@ layout: post
 title: "DiffWave: A Versatile Diffusion Probabilistic Model"
 date: 2026-01-31
 ---
-# DiffWave: A Versatile Diffusion Probabilistic Model for Waveform Generation
-
 ## Introduction
 
 **DiffWave** is a versatile **diffusion probabilistic model** for both **conditional** and **unconditional waveform generation**.
